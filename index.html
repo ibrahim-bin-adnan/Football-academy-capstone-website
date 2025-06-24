@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .topnav{
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .topnav a{
+            float: left;
+            color: lightyellow;
+            text-align: center;
+            padding: 16px 18px;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .topnav a:hover{
+            background-color: blueviolet;
+            color: deepskyblue;
+        }
+
+        .topnav a.active{
+            background-color: yellowgreen;
+            color: darkcyan;
+        }
+
+        .hero {
+            background-color: black;
+            background-position: left;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: darkgreen;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .cta-button:hover {
+            background-color: green;
+        }
+
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+.logo {
+    float: left;
+    height: 50px;
+    margin: 8px 16px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+   <div class="topnav">
+    <img src="Ibrahim.png" alt="Football Academy Logo" class="logo">
+   <a class="active" href="index.html">home</a>
+   <a href="about.html">about</a>
+   <a href="contactus.html">contact us</a>
+   <a href="Gallery.html">gallery</a> 
+   </div>
+
+<div class="hero">
+    <div>
+        <h1>Welcome to Elite Football Academy</h1>
+        <a class="cta-button" href="about.html">Join Now</a>
+    </div>
+</div>
+
+
+<div class="content">
+    <h2>Train Like a Champion</h2>
+    <p>Our academy is dedicated to building future stars. Join our team to boost your skills, fitness, and football IQ —
+        all in a fun and supportive environment.</p>
+</div>
+
+
+<div class="footer">
+    <h1>Contact Us <a href="contactus.html">Here!</a></h1>
+    <p>@copy all rights and reserved by Ibrahim Bin Adnan</p>
+</div>
+
+
+</body>
+</html>
